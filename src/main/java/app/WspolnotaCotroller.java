@@ -20,13 +20,18 @@ public class WspolnotaCotroller {
         this.wspolnotaRepository = wspolnotaRepository;
     }
 
-    @GetMapping("/")
+    @GetMapping ("/")
+    public String main() {
+        return "index_new";
+    }
+
+  /*  @GetMapping("/")
     public String list(Model model) {
         List<Wspolnota> wspolnoty = wspolnotaRepository.findAll();
         model.addAttribute("wspolnoty", wspolnoty);
 
         return "index";
-    }
+    }*/
 
     @GetMapping("/dodaj")
     public String home(Model model) {
