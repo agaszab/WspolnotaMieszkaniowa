@@ -30,10 +30,10 @@ public class WspolnotaCotroller {
     public String home(Model model) {
         model.addAttribute("wspolnota", new Wspolnota());
 
-        return "addMovie";
+        return "addWspolnota";
     }
 
-    @PostMapping("/addmovie")
+    @PostMapping("/addwspolnota")
     public String addWspolnota(Wspolnota wspolnota) {
         wspolnotaRepository.save(wspolnota);
         return "redirect:/";
