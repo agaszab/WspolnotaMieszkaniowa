@@ -9,9 +9,13 @@ public class MieszkanieController {
 
     @Autowired
     private MieszkanieController mieszkanieRepository;
+    private MieszkaniecController mieszkaniecRepository;
 
-    public MieszkanieController (MieszkanieController mieszkanieRepository) {
+    public MieszkanieController (MieszkanieController mieszkanieRepository, MieszkaniecController mieszkaniecRepository) {
         this.mieszkanieRepository = mieszkanieRepository;
+        this.mieszkaniecRepository = mieszkaniecRepository;
     }
+
+
 
 }

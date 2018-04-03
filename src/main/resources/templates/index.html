@@ -19,13 +19,12 @@
 
 <div style="margin: auto; max-width: 400px">
 
-    <a href="/dodaj">Dodaj wspólnotę mieszkaniową</a>
 
     <h2>Lista wspólnot</h2>
 
     <ul class="list-group">
-        <li class="list-group-item" th:each="wspolnota: ${wspolnoty}">
-            <a th:href="'/wspolnota?id=' + ${wspolnota.id_wspolnoty}" th:text="${wspolnota.nazwa_wspolnoty}"></a>
+        <li class="list-group-item" th:each="wspolnoty: ${wspolnoty}">
+            <a th:href="'/wspolnota?id=' + ${wspolnoty.id_wspolnoty}" th:text="${wspolnoty.nazwa_wspolnoty}"></a>
         </li>
         <li>
             <div data-icon="g" class="icon"></div>
