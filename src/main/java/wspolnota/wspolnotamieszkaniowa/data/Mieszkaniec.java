@@ -1,4 +1,4 @@
-package data;
+package wspolnota.wspolnotamieszkaniowa.data;
 
 import javax.persistence.*;
 

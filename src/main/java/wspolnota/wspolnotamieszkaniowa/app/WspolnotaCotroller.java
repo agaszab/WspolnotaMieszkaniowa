@@ -1,12 +1,12 @@
-package app;
+package wspolnota.wspolnotamieszkaniowa.app;
 
-import data.Wspolnota;
+import wspolnota.wspolnotamieszkaniowa.data.Wspolnota;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
-import repository.WspolnotaRepository;
+import wspolnota.wspolnotamieszkaniowa.repository.WspolnotaRepository;
 
 import java.util.List;
 

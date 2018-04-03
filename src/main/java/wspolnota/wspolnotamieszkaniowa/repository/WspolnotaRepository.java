@@ -1,6 +1,6 @@
-package repository;
+package wspolnota.wspolnotamieszkaniowa.repository;
 
-import data.Wspolnota;
+import wspolnota.wspolnotamieszkaniowa.data.Wspolnota;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 

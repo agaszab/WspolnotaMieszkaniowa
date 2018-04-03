@@ -1,4 +1,4 @@
-package data;
+package wspolnota.wspolnotamieszkaniowa.data;
 
 public enum Plec {
     KOBIETA ("Kobieta"),
