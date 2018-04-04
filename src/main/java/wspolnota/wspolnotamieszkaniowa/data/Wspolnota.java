@@ -14,7 +14,7 @@ public class Wspolnota {
     private String adres_wspolnoty;
     private String budynek;
 
-    @OneToMany(mappedBy = "mieszkanie")
+    @OneToMany(mappedBy = "wspolnota")
     private List<Mieszkanie> mieszkania;
 
     public Wspolnota() {

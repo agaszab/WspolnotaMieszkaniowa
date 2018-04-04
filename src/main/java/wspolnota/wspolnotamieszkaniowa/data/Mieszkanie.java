@@ -17,7 +17,7 @@ public class Mieszkanie {
     @ManyToOne
     private Wspolnota wspolnota;
 
-    @OneToMany(mappedBy = "mieszkaniec")
+    @OneToMany(mappedBy = "mieszkanie")
     private List<Mieszkaniec> mieszkancy;
 
     public Mieszkanie() {
