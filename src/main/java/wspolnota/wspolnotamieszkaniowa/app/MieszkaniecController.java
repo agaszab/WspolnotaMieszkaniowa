@@ -8,10 +8,10 @@ import org.springframework.stereotype.Controller;
 public class MieszkaniecController {
 
     @Autowired
-    private MieszkanieController mieszkanieRepository;
+    private MieszkaniecController mieszkaniecRepository;
 
-    public MieszkaniecController (MieszkanieController mieszkanieRepository) {
-        this.mieszkanieRepository = mieszkanieRepository;
+    public MieszkaniecController (MieszkaniecController mieszkaniecRepository) {
+        this.mieszkaniecRepository = mieszkaniecRepository;
     }
 
 }
